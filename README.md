@@ -61,3 +61,7 @@ The snippet above is copy-paste friendly. Before production, a few **required** 
 **Property Asset Presigned Uploads Presign Upload Property Go: Storage**
 - **Property Asset Presigned Uploads Presign Upload Property Go:** Create the bucket with the right ACL/region up front (`POST /v1/storage/bucket/create`); set CORS for browser uploads (`POST /v1/storage/bucket/set_cors`).
 - **Property Asset Presigned Uploads Presign Upload Property Go:** Presigned URLs expire, so set the shortest workable lifetime. Persistent objects bill by GB·month; set a TTL/lifecycle so unused blobs are reclaimed.
+
+## Further reading
+
+- [Generated Images Object Storage Explained: Private Bucket Access and Presigned Delivery](docs/generated-images-object-storage-explained-private-1vq1m1.md)
